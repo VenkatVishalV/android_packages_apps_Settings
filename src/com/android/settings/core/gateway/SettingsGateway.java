@@ -143,6 +143,7 @@ import com.liquid.liquidlounge.fragments.NavbarSettings;
 import com.liquid.liquidlounge.fragments.PulseSettings;
 import com.liquid.liquidlounge.fragments.SmartbarSettings;
 import com.android.settings.liquid.SmartPixels;
+import com.liquid.liquidlounge.fragments.PieSettings;
 
 public class SettingsGateway {
 
@@ -275,7 +276,8 @@ public class SettingsGateway {
             PulseSettings.class.getName(),
             ButtonsSettings.class.getName(),
             RunningServices.class.getName(),
-            SmartPixels.class.getName()
+            SmartPixels.class.getName(),
+            PieSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -321,6 +323,7 @@ public class SettingsGateway {
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.PieControlSettingsActivity.class.getName()
     };
 }
